@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+    background-image : url("../recursos/image.png") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+   
+}
+form label {
+   
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+form input, form select {
+    width: 40%;
+    padding: 6px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #836f6f;
+    border-radius: 4px;
+}
